@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # Compile the typescript
-tsc Decrypt.ts
+tsc
 
 # Browserify the result
-browserify Decrypt.js -s secret_agent -o bundje.js
+browserify Decrypt.js -s secret_agent -o bundle.js
