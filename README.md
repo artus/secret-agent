@@ -2,6 +2,8 @@
 
 ## Hi agent, you won't find anything useful here. Go on and solve the excercise.
 
+Go to https://github.com/artusvranken/secret-agent to solve the assignment.
+
 ### Do you need help?
 Your assingment is to decrypt the encrypted text. To do this, you need the public key.
 Because we took some precautions to prevent the compromise of our security, the key is scattered around the campus. 
