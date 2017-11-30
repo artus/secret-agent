@@ -2,7 +2,7 @@
 
 ## Hi agent, you won't find anything useful here. Go on and solve the excercise.
 
-Go to https://github.com/artusvranken/secret-agent to solve the assignment.
+Go to https://artusvranken.github.io/secret-agent/ to solve the assignment.
 
 ### Do you need help?
 Your assingment is to decrypt the encrypted text. To do this, you need the public key.
