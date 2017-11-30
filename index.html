@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+   
+    <head>
+        <meta charset="utf-8">
+        
+        <!-- bootstrap -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="secret-agent.css" type="text/css">
+        
+        <title>Secret Agent</title>
+    </head>
+    
+    <body>
+      
+        <div class="container page-container ">
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Secret Agent</h1>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>
+                        Hi there, Agent! 
+                        <br>
+                        Q has sent us an encrypted key with a message that we need to obtain ASAP. But there is one problem: we don't have the key to decrypt it. 
+                        We need you to find it for us, so that we can ensure the security of our nation!
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Assignment</h2>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <p>
+                        The key consists of four parts, which are scattered around the campus. Solve the riddles to find the locations and enter the keys in their designated field below.
+                        <br>
+                        When all keys are entered, you can press 'Decrypt!' and the answer will be available. Now go!
+                    </p>
+                </div>
+                <div class="col-xs-12">
+                    <h2>The encrypted text:</h2>
+                    <h3 id="encrypted-key"></h3>
+                </div>
+            </div>
+            
+            <form>
+               
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>First part of the key.</h3>
+                    </div>
+                    <div class="col-xs-12">
+                        <p>A riddle that is required to find the location of the first part of the key will be visible here.</p>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="firstPart">First part of the key:</label>
+                            <input id="firstPart" type="text" class="form-control" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Second part of the key.</h3>
+                    </div>
+                    <div class="col-xs-12">
+                        <p>A riddle that is required to find the location of the Second part of the key will be visible here.</p>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="secondPart">Second part of the key:</label>
+                            <input id="secondPart" type="text" class="form-control" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Third part of the key.</h3>
+                    </div>
+                    <div class="col-xs-12">
+                        <p>A riddle that is required to find the location of the third part of the key will be visible here.</p>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="thirdPart">Third part of the key:</label>
+                            <input id="thirdPart" type="text" class="form-control" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h3>Fourth part of the key.</h3>
+                    </div>
+                    <div class="col-xs-12">
+                        <p>A riddle that is required to find the location of the fourth part of the key will be visible here.</p>
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="form-group">
+                            <label for="fourthPart">Fourth part of the key:</label>
+                            <input id="fourthPart" type="text" class="form-control" required>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-xs-12">
+                        <input type="submit" value="Decrypt!" class="btn-success form-control">
+                    </div>
+                </div>
+            </form>
+            
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2>Solution:</h2>
+                </div>
+                <div class="col-xs-12">
+                    <h3 id="solution">You did not decyprt the text yet!</h3>
+                </div>
+            </div>
+            
+        </div>
+       
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+        <script src="bundle.js"></script>
+        <script src="secret-agent.js"></script>
+    </body>
+    
+</html>
