@@ -37,10 +37,10 @@ class Decrypt {
             let key = new NodeRSA({ b: 512 });
             key.importKey(this.publicKey, 'public');
             result = key.decryptPublic(this.encryptedText, 'utf8');
+            alert("Good job agent! Now go on and solve the rest. Your knighthood awaits.");
         }
         catch (e) {
-            alert(e.message);
-            //alert("You did not enter the right key, or did something elso wrong. Are you trying to do this the wrong way, agent?");
+            alert("You did not enter the right key, or did something else wrong.\nDon't try to fool us, deserters will be shot.");
         }
         return result;
     }
